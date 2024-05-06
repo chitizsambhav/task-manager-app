@@ -18,7 +18,9 @@ The API requires several environment variables to be set in order to run properl
 - PORT: The port number the API will listen on.
 - MONGODB_URL: The connection URL for the MongoDB database.
 - JWT_SECRET: The secret key used to sign JSON Web - - Tokens for user authentication.
-- 
+- CLIENT_ID : Client_ID for your Gmail Account
+- CLIENT_SECRET: Client secret key to validate Gmail API
+- REFRESH_TOKEN: Refresh Token to authenticate after client secret expires.
 ## Usage
 
 To start the API, run To start the API, run npm run devin the terminal. The API will listen on the port specified in the PORT` environment variable.
